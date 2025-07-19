@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wajahat Haider\\source\\repos\\ToDoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0CE4D72-E107-4D5C-88BF-C8337A0E7C84}|backend\\backend.csproj|c:\\users\\wajahat haider\\source\\repos\\todoapp\\backend\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0CE4D72-E107-4D5C-88BF-C8337A0E7C84}|backend\\backend.csproj|solutionrelative:backend\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Wajahat Haider\\source\\repos\\ToDoApp\\backend\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "backend\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Wajahat Haider\\source\\repos\\ToDoApp\\backend\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "backend\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T17:43:43.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

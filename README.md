@@ -40,11 +40,18 @@ npm install
 npm start
 ```
 
-#### 3. Backend Setup
+### Backend Setup
 ```bash
 cd backend
-# Instructions for building and running the C# backend will be added after backend setup
+# Restore dependencies
+ dotnet restore
+# Run the backend server
+ dotnet run
 ```
+
+The backend API will be available at http://localhost:5000 (or the port shown in the terminal).
+
+Swagger UI for API testing will be available at http://localhost:5000/swagger (in development mode).
 
 ## Development Plan
 This project will be developed in the following steps:
