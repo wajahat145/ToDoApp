@@ -1,5 +1,9 @@
 # ToDoApp
 
+## Demo
+
+![ToDo App Demo](./demo.gif)
+
 ## Project Overview
 
 This repository contains a full-stack ToDo application built with ReactJS (TypeScript) for the frontend and C# (ASP.NET Core) for the backend. The app allows users to manage their tasks efficiently, with features such as deadlines, overdue highlighting, pagination, and persistent storage (in-memory for demo).
