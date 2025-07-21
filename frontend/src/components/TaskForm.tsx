@@ -4,9 +4,14 @@ interface TaskFormProps {
   onAdd: (title: string, deadline: string) => void;
 }
 
+function getToday() {
+  const d = new Date();
+  return d.toISOString().slice(0, 10);
+}
+
 const TaskForm: React.FC<TaskFormProps> = ({ onAdd }) => {
   const [title, setTitle] = useState('');
-  const [deadline, setDeadline] = useState('');
+  const [deadline, setDeadline] = useState(getToday());
   const [error, setError] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -22,7 +27,7 @@ const TaskForm: React.FC<TaskFormProps> = ({ onAdd }) => {
     setError('');
     onAdd(title.trim(), deadline);
     setTitle('');
-    setDeadline('');
+    setDeadline(getToday());
   };
 
   return (
